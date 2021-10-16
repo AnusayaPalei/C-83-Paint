@@ -40,3 +40,6 @@ function My_mousemove(e){
     last_position_of_x=currentposition_of_x;
     last_position_of_y=currentposition_of_y;
 }
+function ClearArea(){
+    ctx.clearRect(0,0,ctx.canvas.width, ctx.canvas.height);
+}
